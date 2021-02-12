@@ -1,0 +1,75 @@
+body {
+  width: 337;
+  font-size: 14px;
+  background-size: 100%;
+  /* background: #080808; */
+  background: #33A6B8;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #daf6ff;
+  margin: 80px auto;
+  width: 800px;
+  padding: 55px;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+#date {
+  font-size: 24px;
+}
+#time {
+  /* letter-spacing: 0.05em; */
+  font-size: 80px;
+  padding: 5px 0;
+}
+#text {
+  /* letter-spacing: 0.1em; */
+  font-size: 12px;
+  padding: 20px 0 0;
+}
+
+@media (min-width: 0px) and (max-width: 599px) {
+  #clock {
+    margin: 150px auto;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  }
+  #date {
+    font-size: 20px;
+  }
+  #time {
+    font-size: 45px;
+  }
+  #text {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  #clock {
+    margin: 80px auto;
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  }
+  #date {
+    font-size: 22px;
+  }
+  #time {
+    font-size: 65px;
+  }
+  #text {
+    font-size: 11px;
+  }
+}
+
